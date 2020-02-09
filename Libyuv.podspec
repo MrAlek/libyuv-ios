@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Libyuv"
-  spec.version      = "1703"
+  spec.version      = "1703.1"
   spec.summary      = "libyuv built for iOS"
   spec.description  = "libyuv is an open source project by The Chromium Authors that includes YUV scaling and conversion functionality."
 
