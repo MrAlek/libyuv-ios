@@ -16,6 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'headers/*.h', 'headers/libyuv/*.h'
   spec.public_header_files = 'headers/*.h', 'headers/libyuv/*.h'
+  spec.header_mappings_dir = 'headers'
   spec.vendored_libraries  = 'lib/*.a'
   spec.requires_arc        = false
 
